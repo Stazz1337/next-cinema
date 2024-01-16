@@ -24,6 +24,7 @@ export const getStaticPaths = async () => {
     };
   } catch (error) {
     console.error(error);
+    throw error;
   }
 };
 
@@ -45,7 +46,7 @@ const Details = ({ movie }) => {
   return (
     <main>
       <Head>
-        <title>Tvoe kino - {movie.title}</title>
+        <title>{`Tvoe kino - ${movie.title}`}</title>
       </Head>
       <DetailsHeader movie={movie} />
       <Seasons movie={movie} />
