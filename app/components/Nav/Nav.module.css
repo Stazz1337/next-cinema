@@ -1,0 +1,30 @@
+.nav {
+  width: 215px;
+  position: absolute;
+  z-index: 10;
+}
+
+.list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  margin: 40px 0 0 55px;
+}
+
+.list .item:first-child {
+  margin-bottom: 110px;
+}
+
+.list .item:last-child {
+  margin-top: 336px;
+}
+
+.item {
+  cursor: pointer;
+  width: 44px;
+}
+
+.item:hover {
+  opacity: 0.7;
+}

@@ -1,0 +1,94 @@
+.root {
+  max-width: 100%;
+  margin: 95px 0 60px 215px;
+}
+
+.swiperWrapper {
+  max-width: 100%;
+}
+
+.slide {
+  max-width: 544px;
+}
+
+.title {
+  color: #ffffff;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  max-width: 200px;
+}
+
+.img {
+  border-radius: 20px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link:hover .img {
+  outline: 5px solid purple;
+  transform: scale(0.98);
+}
+
+.movieTitle {
+  color: #ffffff;
+  text-decoration: none;
+  margin-top: 20px;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.movieDuration {
+  color: #bababa;
+  text-decoration: none;
+  margin-top: 12px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.container {
+  display: flex;
+  margin-bottom: 24px;
+  gap: 44px;
+}
+
+.buttonsContainer {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.button {
+  outline: none;
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--Main-Gray-dark, #232326);
+}
+
+.button:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.activeButton .buttonText {
+  color: #09090c;
+}
+
+.buttonText {
+  color: #bababa;
+  font-size: 20px;
+}
+
+.activeButton {
+  background-color: #fff;
+}

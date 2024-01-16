@@ -1,0 +1,49 @@
+.root {
+  margin: 60px 0 120px 215px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.title {
+  color: #fff;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.list {
+  display: grid;
+  row-gap: 25px;
+  column-gap: 100px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 420px));
+}
+
+@media screen and (max-width: 1160px) {
+  .list {
+    column-gap: 20px;
+  }
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.itemTitle {
+  color: var(--Main-White-30, rgba(255, 255, 255, 0.3));
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.itemText {
+  color: #fff;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
